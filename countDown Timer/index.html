@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <p>A Project of <span class="j"> JAWAN</span><span class="p">PAKISTAN</span></p>
+
+        <div class="input">
+            <fieldset>
+                <legend>Hour</legend>
+                <input id="hour" type="number" placeholder="Enter Hour" max="99" value="00">
+            </fieldset>
+            <fieldset>
+                <legend>Min</legend>
+            <input id="minute" type="number" placeholder="Enter Minute" max="60" value="00">
+            </fieldset>
+            <fieldset>
+                <legend>Sec</legend>
+            <input id="sec" type="number" placeholder="Enter Second" max="60" value="00">
+        </fieldset>
+        </div>
+        <div class="btn">
+            <button id="start" onclick="starttimer()">Start</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

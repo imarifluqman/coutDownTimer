@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    background-color: rgb(161, 163, 159);
+    border-radius: 10px;
+    border: 4px solid rgb(112, 112, 112);
+    text-align: center;
+}
+.box p{
+    margin: 15px auto;
+    padding: 0 0 10px 0;
+    border-bottom: 2px dashed white;
+}
+p .j{
+    background-color: white;
+    color: green;
+    padding: 3px;
+    margin-left: 3px;
+
+}
+p .p{
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+.input , .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+fieldset{
+border-radius: 8px;
+}
+fieldset legend{
+    font-weight: bold;
+}
+.input input{
+    width: 70px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.btn button{
+background-color: rgb(249, 253, 253);
+color: rgb(133, 130, 130);
+padding: 8px 15px;
+font-size: 20px;
+font-weight: bold;
+outline: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all 1.5s;
+}
+.btn button:hover{
+background-color: black;
+color: rgb(249, 253, 253);
+
+}
